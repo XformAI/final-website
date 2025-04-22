@@ -71,7 +71,7 @@ const Footer = () => {
             </ul>
             <div className="mt-6">
               <h3 className="text-lg font-medium mb-2">Contact</h3>
-              <p className="text-sm text-gray-300">contact@xformai.com</p>
+              <p className="text-sm text-gray-300">hello@xformai.in</p>
             </div>
           </div>
         </div>

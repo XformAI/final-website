@@ -96,11 +96,11 @@ const Careers = () => {
                       <span>Xform</span>AI
                     </div>
                     <p className="text-xform-gray-default italic">
-                      "We're building tomorrow's technology today, and we need exceptional talent to help us get there."
+                      "Artificial intelligence and generative AI may be the most important technology of any lifetime."
                     </p>
                     <div className="flex items-center justify-center space-x-2 pt-4">
                       <Star className="h-5 w-5 text-yellow-500 animate-pulse" />
-                      <p className="mt-4 text-xform-gray-default font-medium">Dr. Emma Foster, CEO</p>
+                      <p className="mt-4 text-xform-gray-default font-medium">Marc Benioff</p>
                       <Star className="h-5 w-5 text-yellow-500 animate-pulse" />
                     </div>
                   </div>
@@ -152,6 +152,9 @@ const Careers = () => {
             </h2>
             <p className="text-lg text-xform-gray-default max-w-3xl mx-auto">
               Join our team and help build the future of artificial intelligence.
+              <p>Currently we are not hiring but stll if you are interested in joining us, please reach out to us.</p>
+    
+              <span className="text-xform-purple-default font-semibold">We are always looking for exceptional talent.</span>
             </p>
           </div>
           
@@ -207,7 +210,7 @@ const Careers = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-inter font-bold mb-8">Don't See a Position That Fits?</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
-            We're always looking for exceptional talent. Send us your resume and let us know how you can contribute to our mission.
+            Send us your resume and let us know how you can contribute to our mission.
           </p>
           <Link 
             to="/contact" 

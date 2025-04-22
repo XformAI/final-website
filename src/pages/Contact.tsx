@@ -31,12 +31,12 @@ const Contact = () => {
                 <h3 className="text-xl font-medium text-xform-blue-dark dark:text-white mb-2 transition-colors duration-300">Email Us</h3>
                 <p className="text-xform-gray-default dark:text-gray-300 mb-1 transition-colors duration-300">For general inquiries:</p>
                 <a href="mailto:contact@xformai.com" className="text-xform-purple-default hover:text-xform-purple-dark dark:text-xform-purple-light dark:hover:text-white transition duration-300">
-                  contact@xformai.com
+                  hello@xformai.in
                 </a>
-                <p className="text-xform-gray-default dark:text-gray-300 mt-2 mb-1 transition-colors duration-300">For partnership opportunities:</p>
+                {/* <p className="text-xform-gray-default dark:text-gray-300 mt-2 mb-1 transition-colors duration-300">For partnership opportunities:</p>
                 <a href="mailto:partnerships@xformai.com" className="text-xform-purple-default hover:text-xform-purple-dark dark:text-xform-purple-light dark:hover:text-white transition duration-300">
                   partnerships@xformai.com
-                </a>
+                </a> */}
               </div>
 
               <div className="flex flex-col items-center text-center group flex-1 px-4">
@@ -44,14 +44,14 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-medium text-xform-blue-dark dark:text-white mb-2 transition-colors duration-300">Call Us</h3>
-                <p className="text-xform-gray-default dark:text-gray-300 mb-1 transition-colors duration-300">Main Office:</p>
+                <p className="text-xform-gray-default dark:text-gray-300 mb-1 transition-colors duration-300">Office:</p>
                 <a href="tel:+1-555-123-4567" className="text-xform-purple-default hover:text-xform-purple-dark dark:text-xform-purple-light dark:hover:text-white transition duration-300">
-                  +1 (555) 123-4567
+                  +91 993766**** 
                 </a>
-                <p className="text-xform-gray-default dark:text-gray-300 mt-2 mb-1 transition-colors duration-300">Support Team:</p>
+                {/* <p className="text-xform-gray-default dark:text-gray-300 mt-2 mb-1 transition-colors duration-300">Support Team:</p>
                 <a href="tel:+1-555-987-6543" className="text-xform-purple-default hover:text-xform-purple-dark dark:text-xform-purple-light dark:hover:text-white transition duration-300">
                   +1 (555) 987-6543
-                </a>
+                </a> */}
               </div>
 
               <div className="flex flex-col items-center text-center group flex-1 px-4">

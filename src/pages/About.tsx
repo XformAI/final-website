@@ -67,11 +67,11 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div className="glass-morphism p-8 rounded-xl animate-fade-in hover-lift">
               <h2 className="text-3xl font-inter font-bold text-gradient mb-6">Our Mission</h2>
-              <p className="text-lg text-foreground/80 mb-4">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                 At XformAI, our mission is to democratize artificial intelligence by creating accessible, 
                 powerful, and ethical AI solutions that solve real-world problems for businesses and organizations of all sizes.
               </p>
-              <p className="text-lg text-foreground/80">
+              <p className="text-lg text-gray-700 dark:text-gray-300">
                 We believe that AI should be a force for positive transformation, enhancing human capabilities 
                 rather than replacing them, and creating new opportunities for innovation and growth.
               </p>
@@ -79,11 +79,11 @@ const About = () => {
             
             <div className="glass-morphism p-8 rounded-xl animate-fade-in hover-lift" style={{ animationDelay: '0.2s' }}>
               <h2 className="text-3xl font-inter font-bold text-gradient mb-6">Our Vision</h2>
-              <p className="text-lg text-foreground/80 mb-4">
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
                 We envision a future where AI is seamlessly integrated into every aspect of business and society, 
                 working alongside humans to solve the most pressing challenges of our time.
               </p>
-              <p className="text-lg text-foreground/80">
+              <p className="text-lg text-gray-700 dark:text-gray-300">
                 Our vision is to be at the forefront of this AI revolution, driving innovation through 
                 our research while building practical solutions that deliver immediate value to our clients.
               </p>
@@ -97,7 +97,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-inter font-bold text-gradient mb-4">Our Core Values</h2>
-            <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
               These principles guide everything we do, from how we develop our AI models to how we work with our clients.
             </p>
           </div>
@@ -106,11 +106,11 @@ const About = () => {
             {coreValues.map((value, index) => (
               <div 
                 key={index} 
-                className="glass-morphism rounded-lg p-8 hover-lift transition duration-300"
+                className="glass-morphism rounded-lg p-8 hover-lift transition duration-300 bg-white/20 dark:bg-white/10"
               >
                 <div className="mb-4">{value.icon}</div>
                 <h3 className="text-xl font-inter font-semibold mb-3 text-gradient">{value.title}</h3>
-                <p className="text-foreground/80">{value.description}</p>
+                <p className="text-gray-700 dark:text-gray-300">{value.description}</p>
               </div>
             ))}
           </div>
@@ -122,7 +122,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-inter font-bold text-gradient mb-4">Our Leadership Team</h2>
-            <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
               Meet the experts and visionaries behind XformAI's groundbreaking work in artificial intelligence.
             </p>
           </div>
@@ -141,7 +141,7 @@ const About = () => {
                   </div>
                   <h3 className="text-xl font-inter font-semibold mb-1 text-gradient">{member.name}</h3>
                   <p className="text-xform-purple-default font-medium mb-4">{member.role}</p>
-                  <p className="text-foreground/80">{member.bio}</p>
+                  <p className="text-gray-700 dark:text-gray-300">{member.bio}</p>
                 </div>
               </div>
             ))}

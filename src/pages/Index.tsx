@@ -92,7 +92,7 @@ const Index = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-white text-center">
                     <div className="font-bold text-4xl font-inter mb-2 text-white animate-pulse-fast">XformAI</div>
-                    <div className="text-lg animate-fade-in">Transforming Tomorrow</div>
+                    <div className="text-lg animate-fade-in">Shaping Intelligence. Deploying the Future.</div>
                   </div>
                 </div>
               </div>
