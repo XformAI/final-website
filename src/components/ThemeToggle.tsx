@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
 import { Sun, Moon } from "lucide-react";
@@ -15,9 +14,9 @@ const ThemeToggle = () => {
         onPressedChange={toggleTheme}
         aria-label="Toggle theme"
         className={cn(
-          "h-10 w-10 rounded-full shadow-lg",
-          theme === "dark" 
-            ? "bg-xform-blue-dark text-white hover:bg-xform-blue-light" 
+          "h-10 w-10 rounded-full shadow-lg transition-colors duration-200",
+          theme === "dark"
+            ? "bg-xform-blue-dark text-white hover:bg-xform-blue-light"
             : "bg-white text-xform-blue-dark hover:bg-gray-100"
         )}
       >

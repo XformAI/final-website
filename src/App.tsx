@@ -18,6 +18,9 @@ import Article1 from "./pages/blog/a1";
 
 const queryClient = new QueryClient();
 
+
+
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider>
@@ -41,6 +44,8 @@ const App = () => (
       </TooltipProvider>
     </ThemeProvider>
   </QueryClientProvider>
+  
+
 );
 
 export default App;
