@@ -86,15 +86,18 @@ const Index = () => {
             <div className="hidden md:block relative">
               <div className="absolute inset-0 bg-gradient-to-r from-xform-purple/20 to-xform-blue-light/20 rounded-full blur-3xl animate-pulse-slow" />
               <div className="relative animate-float">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-full max-w-lg mx-auto drop-shadow-[0_0_35px_rgba(139,92,246,0.3)] hover:scale-105 transition-all duration-500">
-                  <path fill="#9F7AEA" d="M45.7,-72.8C59.9,-66.2,72.6,-55.1,80.2,-41C87.8,-26.8,90.2,-9.6,87.8,6.9C85.3,23.5,78,39.3,67.4,51.4C56.8,63.5,42.9,71.8,28.3,75.7C13.6,79.6,-1.7,79.1,-17.5,76.3C-33.2,73.6,-49.4,68.6,-60.6,58.3C-71.7,48,-77.9,32.4,-80.8,16.1C-83.7,-0.2,-83.4,-17.2,-77.3,-31.1C-71.2,-45,-59.3,-55.9,-45.6,-62.9C-31.9,-69.9,-16,-72.9,0.4,-73.6C16.8,-74.2,33.5,-72.3,45.7,-72.8Z" className="transition-all duration-300 hover:scale-105" />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
+              <img 
+                src="assets/logo.png" 
+                alt="Decorative blob"
+                className="max-w-[120px] h-auto mx-auto drop-shadow-[0_0_35px_rgba(139,92,246,0.3)] hover:scale-105 transition-all duration-500"
+                />
+
+                {/* <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-white text-center">
                     <div className="font-bold text-4xl font-inter mb-2 text-white animate-pulse-fast">XformAI</div>
                     <div className="text-lg animate-fade-in">Shaping Intelligence. Deploying the Future.</div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
