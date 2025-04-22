@@ -59,9 +59,9 @@ const Careers = () => {
           <p className="text-xl md:text-2xl max-w-3xl mx-auto animate-fade-in">
             Build the future of AI with the brightest minds in the industry
           </p>
-          <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2">
+          {/* <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2">
             <div className="w-1 h-20 bg-gradient-to-b from-xform-purple-light to-transparent animate-pulse-slow" />
-          </div>
+          </div> */}
         </div>
       </section>
 
